@@ -1,4 +1,3 @@
-﻿# MicroservicesApp.NET
 Ce projet implémente une architecture microservices utilisant ASP.NET Core Web API, composée de :
 
 ProductsAPI – microservice de gestion des produits
@@ -23,39 +22,6 @@ La communication asynchrone via Message Broker (RabbitMQ)
 
 La synchronisation automatique entre microservices (Products → Orders)
 
-Microservices-ASP.NETCore-Ocelot-RabbitMQ/
-│
-├── ProductsAPI/
-│   ├── Controllers/
-│   ├── Models/
-│   ├── Data/
-│   ├── Program.cs
-│   └── ProductsAPI.csproj
-│
-├── OrdersAPI/
-│   ├── Controllers/
-│   ├── Models/
-│   ├── Consumer/
-│   ├── Data/
-│   ├── Program.cs
-│   └── OrdersAPI.csproj
-│
-├── ApiGateway/
-│   ├── Ocelot.json
-│   ├── Program.cs
-│   └── ApiGateway.csproj
-│
-├── Shared/
-│   ├── DTO/
-│   └── Shared.csproj
-│
-├── docs/
-│   └── Chapitre-5-Introduction-aux-MicroServices.pdf
-│
-└── README.md
-Microservices avec ASP.NET Core – Ocelot – RabbitMQ – MassTransit
-
-Ce projet présente une architecture Microservices basée sur ASP.NET Core Web API, intégrant une API Gateway Ocelot et une communication asynchrone via RabbitMQ & MassTransit.
 🌐 Architecture générale
 
 L'application est composée de 3 services :
@@ -99,4 +65,3 @@ Docker
 SQL Server
 
 Postman (tests)
-
